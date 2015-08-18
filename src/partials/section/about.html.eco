@@ -1,6 +1,0 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">A ThoughtWorks Recife tem o prazer de sediar a oficina de Node.js com <a href="https://www.yld.io/team/thiago+dantas">Thiago Dantas</a>, consultor de desenvolvimento em Node.js na <a href="https://www.yld.io">YLD!</a></p>
-
-<p>As vagas são limitadas! Por isso, é de extrema importância que você se inscreva no link acima.</p>
-
-<p>Você só precisa trazer seu notebook. Nenhuma conhecimento prévio sobre Node.js é necessário!</p>
