@@ -8,8 +8,12 @@
 <header class="header">
   <div class="wrapper">
     <h1 class="logo-name">
-      <a class="logo-link" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+      <a class="logo-link" href="#" title="<%= @conf.first_name %>" itemprop="first_name"><%= @conf.first_name %></a>
     </h1>
+    <h1 class="logo-name">
+      <a class="logo-link" href="#" title="<%= @conf.second_name %>" itemprop="second_name"><%= @conf.second_name %></a>
+    </h1>
+    
     <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
 
     <% if @conf.price || @callToAction: %>

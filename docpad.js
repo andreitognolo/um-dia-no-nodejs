@@ -7,13 +7,14 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Oficina - Um dia de NodeJS",
+      first_name: "Um dia de",
+      second_name: "NodeJS",
       description: "Oficina de duração de um dia para quem quer dar os primeiros passos com NodeJS",
-      date: "29 de Agosto",
+      date: "29 de Agosto (Sábado)",
       // If your event is free, just comment this line
       //price: "$100",
       venue: "ThoughtWorks",
-      address: "Av. Gov. Agamenon Magalhães, 4779, 12º andar. Empresarial Isaac Newton, Ilha do Leite",
+      address: "ThoughtWorks - Av. Gov. Agamenon Magalhães, 4779, 12º andar. Empresarial Isaac Newton, Ilha do Leite",
       city: "Recife",
       state: "PE"
     },
@@ -45,12 +46,12 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Local",
+      speakers: "Apresentador",
+      schedule: "Agenda",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
@@ -71,7 +72,7 @@ module.exports = {
         presentation: {
           title: "Palestra: Introdução ao Node.js",
           description: "Breve introdução sobre os conceitos centrais do Node.js",
-          time: "09h00"
+          time: "10h00"
         }
       },
       {
