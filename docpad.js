@@ -54,6 +54,19 @@ module.exports = {
       contact: "Contato"
     },
 
+    speakers: [
+      {
+          name: "Thiago Dantas",
+          photo: "themes/yellow-swan/img/thiago_dantas.png",
+          bio: "Thiago is a really passionate software developer and his jorney began in 2004 as a Linux administrator and developer passing through to J2ME, BREW, JEE, Ruby and finally Javascript server side ecosystem.",
+          company: "YLD!",
+          link: {
+            href: "twitter.com/thiagochapa",
+            text: "@thiagochapa"
+          }
+      }
+    ],
+
     // The entire schedule
     schedule: [
       {
@@ -61,39 +74,23 @@ module.exports = {
         time: "08h30"
       },
       {
-        name: "Thiago Dantas",
-        photo: "themes/yellow-swan/img/thiago_dantas.png",
-        bio: "Thiago is a really passionate software developer and his jorney began in 2004 as a Linux administrator and developer passing through to J2ME, BREW, JEE, Ruby and finally Javascript server side ecosystem.",
-        company: "YLD!",
-        link: {
-          href: "twitter.com/thiagochapa",
-          text: "@thiagochapa"
-        },
-        presentation: {
-          title: "Palestra: Introdução ao Node.js",
-          description: "Breve introdução sobre os conceitos centrais do Node.js",
-          time: "10h00"
-        }
+        name: "Palestra: Introdução ao Node.js",
+        description: "Breve introdução sobre os conceitos centrais do Node.js",
+        time: "09h00"
       },
       {
-        photo: "themes/yellow-swan/img/thiago_dantas.png",
-        presentation: {
-          title: "Oficina NodeSchool: learnyounode",
-          description: "Oficina para explorar os conceitos básicos de Node.js",
-          time: "09h00"
-        }
+        name: "Oficina NodeSchool: learnyounode",
+        description: "Oficina para explorar os conceitos básicos de Node.js",
+        time: "10h00"
       },
       {
-        name: "Lunch",
+        name: "Almoço",
         time: "12h00"
       },
       {
-        photo: "themes/yellow-swan/img/thiago_dantas.png",
-        presentation: {
-          title: "Explorando o hapi.js",
-          description: "Oficina sobre hapi.js, um framework para construção de aplicativos e serviços",
-          time: "13h00"
-        }
+        name: "Explorando o hapi.js",
+        description: "Oficina sobre hapi.js, um framework para construção de aplicações e serviços",
+        time: "13h00"
       },
       {
         name: "Encerramento",
