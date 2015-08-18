@@ -12,7 +12,7 @@ module.exports = {
       date: "29 de Agosto",
       // If your event is free, just comment this line
       //price: "$100",
-      venue: "ThoughtWorks Recife",
+      venue: "ThoughtWorks",
       address: "Av. Gov. Agamenon Magalhães, 4779, 12º andar. Empresarial Isaac Newton, Ilha do Leite",
       city: "Recife",
       state: "PE"
@@ -21,7 +21,7 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Inscrever-se!",
+        text: "Inscreva-se!",
         link: "https://docs.google.com/forms/d/1thAahcMPEoRgvckP4s_sapm7Jb-YoB9pSRMhu4oCvc4/viewform"
     },
 
